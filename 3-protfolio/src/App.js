@@ -9,7 +9,7 @@ import Contact from "./components/contact";
 import Footer from "./components/Footer";
 import Copyright from "./components/Copyright";
 import ProtfolioModal from "./components/ProtfolioModal";
-import Modal from './components/modals/modal'
+import myModal from './components/modals/modal'
 
 
 const App = ( )=>{
@@ -23,7 +23,7 @@ const App = ( )=>{
           <Footer/>
           <Copyright/>
           <ProtfolioModal/>
-          <Modal/>
+          <myModal/>
       </div>
   )
 }
